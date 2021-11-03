@@ -1,0 +1,15 @@
+@use '~@angular/material' as mat;
+@import 'variables';
+
+:host {
+  // Header
+  .content__header {
+    background:  map-get(mat.$blue-palette, 700);
+    box-sizing:  border-box;
+    color:       white;
+    font-size:   $font-size-base;
+    height:      $app-bar-height;
+    line-height: $app-bar-height;
+    padding:     0 $space-size-small;
+  }
+}
